@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bill.css">
+    <title>Bill Calculater</title>
+</head>
+
+<body>
+    <header>
+        <h1>Bill Calculator</h1>
+    </header>
+    <div class="calculater">
+
+        <form>
+            <p>Price: <input id="price" type="number" onchange="calculate()"></p>
+            <p> Quantity: <input id="quantity" type="number" onchange="calculate()"></p>
+            <p> Discount %: <input id="disc" type="number" onchange="calculate()" value="10"></p>
+            <p> GST %: <input id="gst" type="number" value="5" onchange="calculate()"></p>
+            <h1 id="payment"></h1>
+
+
+        </form>
+    </div>
+
+    <script src="bill.js"></script>
+
+
+</body>
+
+</html>

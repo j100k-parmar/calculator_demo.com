@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.calculater {
+    width: 20%;
+    margin: auto;
+    padding-bottom: 50px;
+    border: 2px solid gray;
+}
+
+.calculater p {
+    padding: 20px 0 0 20px;
+}
